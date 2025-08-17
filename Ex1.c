@@ -7,9 +7,9 @@ void main() {
 
     for(i = 0; i < 5; i++) {
         if(key == a[i]) {
-            printf("%d Element found at index %d", arr[i], i);
+            printf("Element found at index %d", a[i], i);
 
         }
     }
-    printf("The element not found");
+    printf("The element not found %d");
 }
